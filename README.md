@@ -7,7 +7,7 @@
 ssh ansible@PROXY
 
 # Install dependencies
-apt install git nginx-light
+apt install git nginx
 
 # Get densho-maintenance
 git-clone http://github.com/denshoproject/densho-maintenance.git
