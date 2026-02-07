@@ -18,6 +18,9 @@ cd /etc/nginx/sites-enabled/
 ln -s /opt/densho-maintenance/conf/ddrpublic.conf
 ln -s /opt/densho-maintenance/conf/encycfront.conf
 ln -s /opt/densho-maintenance/conf/encycrg.conf
+ln -s /opt/densho-maintenance/conf/maps.conf
+ln -s /opt/densho-maintenance/conf/nikkeijin.conf
+ln -s /opt/densho-maintenance/conf/www.conf
 
 # Install SSL certs to
 # - /etc/nginx/ssl/proxy_ssl_certificate
