@@ -1,5 +1,8 @@
 # densho-maintenance
 
+This repo provides static HTML outage pages for Densho web properties. It is designed for use on a Debian host with nginx installed, and DNS for the affected site repointed at the host's public nginx IP. 
+
+Each directory contains an `index.html` file for the associated property that can be edited with information about the particular outage. 
 
 ## Installation
 
@@ -31,3 +34,4 @@ chmod 0600 /etc/nginx/ssl/proxy_ssl_certificate*
 # Restart nginx
 service nginx reload
 ```
+
